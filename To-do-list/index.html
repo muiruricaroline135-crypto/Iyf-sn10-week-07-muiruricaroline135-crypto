@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="card">
+  <h1>My To-Do List</h1>
+  <div class="subtitle">Built with DOM manipulation & event listeners</div>
+
+  <div class="stats">
+    <span>TOTAL: 0</span>
+    <span>ACTIVE: 0</span>
+    <span>COMPLETED: 0</span>
+  </div>
+
+  <div class="input-row">
+    <input type="text" id="task-input" placeholder="Add a new task." />
+    <button id="add-btn">Add Task</button>
+  </div>
+
+  <div class="filters">
+    <button class="filter-btn active" data-filter="all">ALL</button>
+    <button class="filter-btn" data-filter="active">ACTIVE</button>
+    <button class="filter-btn" data-filter="completed">COMPLETED</button>
+  </div>
+
+  <div class="task-list" id="task-list"></div>
+
+  <button class="clear-completed" id="clear-completed">Clear Completed</button>
+</div>
+
+<script>
+<link src="main.js">
+</script>
+
+</body>
+</html>
