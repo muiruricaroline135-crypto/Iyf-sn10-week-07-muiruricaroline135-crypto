@@ -1,0 +1,1 @@
+I refactored my To-Do List project by separating logic into reusable functions such as saving tasks, filtering tasks, toggling completion, and deleting tasks. I improved readability using descriptive variable names and organized the code into clear sections. This makes the code easier to maintain, debug, and scale.
